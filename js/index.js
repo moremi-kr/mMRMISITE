@@ -1,8 +1,8 @@
 function isMobile() {
   return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
-if (isMobile()) {
-  location.href = "http://m.moremi.kr";
+if (isMobile() == false) {
+  location.href = "https://moremi.kr";
 }
 $(function() {
   if (ProfileImage.src == "img/index/profile.png") {

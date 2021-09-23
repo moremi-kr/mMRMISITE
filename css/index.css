@@ -1,17 +1,12 @@
 .logo {
+    margin-top: 50%;
     text-align: center;
     font-family: "Jua";
     padding: 15px;
     height: 72px;
-    font-size: 70pt;
+    font-size: 150px;
     font-weight: 100;
-    margin-bottom: 30px;
-}
-.mini-logo {
-    font-family: "Jua";
-    padding: 15px;
-    font-size: 14pt;
-    font-weight: 100;
+    margin-bottom: 100px;
 }
 s {
     color: #fff600;
@@ -28,12 +23,12 @@ LE {
     margin-top: 15px;
     border: 5px solid #00fd37;
     border-radius: 10px;
-    max-height: 50px;
-    width: 700px;
+    width: 800px;
+    height: 70px;
     display: block;
     margin-bottom: 25px;
     text-size-adjust: 10px;
-    font-size:20px;
+    font-size: 30px;
     word-spacing: 3px;
     letter-spacing: 1px;
     padding-left: 5px;

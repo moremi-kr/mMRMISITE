@@ -1,9 +1,10 @@
 .dropbtn {
-    min-width: 160px;
+    min-width: 200px;
+    min-height: 80px;
     background-color: #4CAF50;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
 }
@@ -13,10 +14,12 @@
     margin-right: 5px;
 }
 .dropdown-content {
+    font-size: 25px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 200px;
+    min-height: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
