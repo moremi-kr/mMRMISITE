@@ -1,0 +1,45 @@
+body {
+    background-color: #4d4d4d;
+}
+#EngineIcon {
+    width: 100px;
+    height: 120px;
+    font-weight: 1000;
+    background: none;
+}
+#EngineSelect {
+    height: 100px;
+    display: flex;
+}
+img {
+    width: 80px;
+}
+table {
+    border-right: 2.5px solid #747474;
+    font-size: 25pt;
+    color: white;
+}
+.SettingSelect {
+    width: 200px;
+    height: 50px;
+    font-size: 20pt;
+    color: white;
+    background: gray;
+    border: none;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+    #SettingSelect :active {
+        background-color: #5f5f5f;
+    }
+h4 {
+    text-align: left;
+    font-weight: 750;
+}
+#all {
+    display: flex;
+}
+iframe {
+    width: 80vw;
+    height: 98.4vh;
+}

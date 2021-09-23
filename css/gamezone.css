@@ -1,0 +1,18 @@
+#select {
+    font-weight: 1000;
+    text-align: center;
+    background-color: aqua;
+    border: 10px solid #00fd37;
+    border-radius: 10px;
+    text-size-adjust: 10px;
+    font-size:50pt;
+    margin-top: -5px;
+}
+.select {
+    margin-left: 25%;
+}
+a{
+    font-size: 20pt;
+    text-decoration: none;
+    color: gray;
+}

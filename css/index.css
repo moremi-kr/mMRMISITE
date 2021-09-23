@@ -1,0 +1,69 @@
+.logo {
+    text-align: center;
+    font-family: "Jua";
+    padding: 15px;
+    height: 72px;
+    font-size: 70pt;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.mini-logo {
+    font-family: "Jua";
+    padding: 15px;
+    font-size: 14pt;
+    font-weight: 100;
+}
+s {
+    color: #fff600;
+    text-decoration: none;
+}
+o {
+    color: #06ff00;
+}
+LE {
+    color: #ff0000;
+}
+#search-box {
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 5px solid #00fd37;
+    border-radius: 10px;
+    max-height: 50px;
+    width: 700px;
+    display: block;
+    margin-bottom: 25px;
+    text-size-adjust: 10px;
+    font-size:20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+#top { 
+    margin-top: -8px;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    margin-left: -8px;
+}
+#profile {
+    position: fixed;
+    right: 130px;
+}
+#ProfileImage {
+    border-radius: 50px;
+    cursor: pointer;
+}
+#username {
+    position: relative;
+    top: -15px;
+    color: gray;
+    font-size: 40px;
+    cursor: pointer;
+}
+.g-signin2 {
+    position: fixed;
+    right: 0;
+    top: 15px;
+}

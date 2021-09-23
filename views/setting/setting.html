@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>설정</title>
+        <script src="../../js/setting.js"></script>
+        <link rel="stylesheet" href="../../css/setting.css">
+        <script>
+            function teleport(loc) {
+                document.getElementById("iframe").src = loc;
+                console.log('opened: '+loc)
+            }
+        </script>
+    </head>
+    <body>
+        <div id="all">
+        <table>
+            <th><h4>설정</h4></th>
+                <tr><td><button class="SettingSelect" href="#" onclick="teleport('SearchEngine.html');">검색 엔진 설정</button></td></tr>
+                <!-- <tr><td><button class="SettingSelect" href="#" onclick="">검색 엔진 설정</button></td></tr> -->
+        </table>
+        <iframe id="iframe" src="def.html" frameborder="0"></iframe>
+        </div>
+    </body>
+</html>

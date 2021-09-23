@@ -1,0 +1,22 @@
+a {
+    font-family: 'Roboto Slab';
+    color: #16c60c;
+    text-decoration: none;
+    font-size: 16pt;
+    text-rendering: optimizeSpeed;
+}
+body {
+    background-color: black;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    color: #16c60c;
+    text-decoration: none;
+    font-size: 30pt;
+}
+first {
+    font-family: 'Roboto Slab';
+    color: #16c60c;
+    text-decoration: none;
+    font-size: 16pt;
+}

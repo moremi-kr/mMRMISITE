@@ -1,9 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
-
+        <meta name="naver-site-verification" content="6be5bd9ac6f87fa8f930ae8adff33a2c0b5fd524" />
+        <meta name="google-signin-client_id" content="789404571068-59frke8lkhlcd58ti0l5tk8rq9scb5mb.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="대충 사이트">
+        <meta name="description" content="진짜 대충만든 사이트 입니다.">
+        <meta property="og:title" content="대충 사이트">
+        <meta property="og:description" content="진짜 대충만든 사이트 입니다.">
+        <meta name="author" content="별?">
+        <meta property="og:image" content="img/">
+        <title>대충 사이트</title>
+        <script src="js/setting.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+        <link href="css/index.css" type="text/css" rel="stylesheet">
+        <link href="css/module.css" type="text/css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
     </head>
-    <body>
-        <h1>HELLO!</h1>
-    </body>
+        <body>
+            <!-- 구글 로그인 만들자^^ -->
+            <div id="top">
+                <div class="mini-logo">
+                    <s>M</s><o>OR</o><s>E</s><LE>MI</LE>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">다른 곳</button>
+                    <div class="dropdown-content">
+                        <a onclick="window.open('views/help.html','', 'toolbar=no, scrollbars=no, width=600, height=600');">도움말</a>
+                        <a href="views/gamezone/index.html">게임존</a>
+                        <a href="views/cmd/index.html">공부중</a>
+                        <a href="views/browser.html">브라우저</a>
+                        <a href="views/bad.html">욕설 테스트</a>
+                    </div>
+                  </div>
+                  <button class="dropbtn" onclick="location.href = 'views/setting/setting.html'">설정</button>
+                  <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                  <div id="profile">
+                    <img src="img/index/profile.png" id="ProfileImage" width="64px" height="64px" onclick=""><span onclick="" id="username"></span>
+                </div>
+                  <!-- <a href="#" onclick="signOut();">Sign out</a> -->
+            </div>
+            <!-- 이게 시작임 ㅋㅋㅋㅋㅋ -->
+            <div class="logo"><s>M</s><o>OR</o><s>E</s><LE>MI</LE></div>
+            <input type="text" name=query maxlength=255 id="search-box" onkeyup="if(window.event.keyCode==13){(search())}"/>
+        </body>
 </html>
